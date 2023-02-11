@@ -68,7 +68,6 @@ section{
     font-weight: 700;
     font-size: 40px;
     color: #151414;
-    /* padding-top: 150px; */
     margin-top: 150px;
     margin-bottom: 25px;
 }
@@ -79,7 +78,7 @@ section{
 ul{
     list-style: none;
     color: #444343;
-    line-height: 30px;
+    line-height: 40px;
     padding: 0;
 }
 ul li::before{
@@ -94,7 +93,7 @@ ul li::before{
     font-size: 40px;
     color: #151414;
     text-align: center;
-    margin-bottom: 100px;
+    margin-bottom: 60px;
 }
 .plans-container{
     display: flex;
@@ -118,7 +117,7 @@ ul li::before{
     font-size: 30px;
     color: #151414;
     text-align: center;
-    margin-top: 25px;
+    margin-top: 20px;
     margin-bottom: 15px;
 }
 .plan-description{
@@ -126,7 +125,7 @@ ul li::before{
     font-size: 25px;
     color: #737272;
     text-align: center;
-    margin-bottom: 150px;
+    margin-bottom: 140px;
 }
 .call-now-container{
     background-image: url('../images/gradient1.png'), url('../images/watch.png');
@@ -142,7 +141,7 @@ ul li::before{
     position: absolute;
     margin: 55px 820px 0 65px;
 }
-.btn-primary{
+.call-now .btn-primary{
     position: absolute;
     background: #FFFFFF;
     border-radius: 5px;
@@ -151,6 +150,74 @@ ul li::before{
     color: #005FAC;
     margin: 180px 820px 0 65px;
 }
-footer{
-    margin: 130px;
+
+/* footer section styles */
+.future{
+    display: flex;
+    gap: 350px;
+    position: absolute;
+    background: #151414;
+    width: 100%;
+    height: 560px;
+    left: 0%;
+    margin-top: 150px;
 }
+.future-content{
+    margin-top: 130px;
+    margin-left: 310px;
+}
+.future-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+    margin-bottom: 20px;
+}
+.future-descripetion{
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+.email-info{
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.phone-info{
+    color: #FFFFFF;
+    margin-bottom: 35px;
+}
+.future-content a{
+    padding-right: 20px;
+}
+.sub-content{
+    margin-top: 130px;
+}
+.subscribe-title{
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-right: 550px;
+    margin-bottom: 35px; 
+}
+input{
+    width: 325px;
+    height: 64px;
+    background: #151414;
+    border: 1px solid #F3F3F3;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+::placeholder{
+    font-size: 18px;
+    color: #F3F3F3;
+    padding-left: 20px;
+}
+.sub-content .btn-primary{
+    font-weight: 600;
+    font-size: 20px;
+    color: #F15B22;
+    background: #FFFFFF;
+    border-radius: 8px;
+    padding: 15px 35px;
+}
+
+
+
