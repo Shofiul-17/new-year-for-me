@@ -87,3 +87,44 @@ ul li::before{
     margin-right: 10px;
     color: #16D887;
 }
+
+/* my plans section styles */
+.my-plans-title{
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.plans-container{
+    display: flex;
+    gap: 90px;
+    justify-content: center;
+}
+.icon-web{
+   margin-left: 95px;
+}
+.icon-js{
+   margin-left: 40px;
+}
+.icon-smoke{
+   margin-left: 60px;
+}
+.icon-ecom{
+   margin-left: 60px;
+}
+.plan-title{
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+.plan-description{
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+    text-align: center;
+    margin-bottom: 150px;
+}
